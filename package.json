@@ -33,6 +33,10 @@
     "@tailwindcss/typography": "^0.5.19"
   },
   "pnpm": {
+    "allowed-build-scripts": [
+      "esbuild",
+      "sharp"
+    ],
     "onlyBuiltDependencies": [
       "esbuild",
       "sharp"
