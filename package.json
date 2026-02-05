@@ -13,11 +13,8 @@
     "@astrojs/rss": "^4.0.15",
     "@astrojs/sitemap": "^3.7.0",
     "@tailwindcss/vite": "^4.1.18",
-    "@types/katex": "^0.16.8",
     "astro": "^5.17.1",
     "astro-icon": "^1.1.5",
-    "clsx": "^2.1.1",
-    "katex": "^0.16.28",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-callouts": "^2.1.2",
     "rehype-external-links": "^3.0.0",
@@ -31,15 +28,5 @@
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.87",
     "@tailwindcss/typography": "^0.5.19"
-  },
-  "pnpm": {
-    "allowed-build-scripts": [
-      "esbuild",
-      "sharp"
-    ],
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "sharp"
-    ]
   }
 }

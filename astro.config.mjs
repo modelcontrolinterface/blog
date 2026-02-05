@@ -15,6 +15,9 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 export default defineConfig({
   site: "https://modelcontrolinterface.github.io",
   base: "/blog",
+  image: {
+    service: passthroughImageService(),
+  },
   markdown: {
     shikiConfig: {
       wrap: false,
